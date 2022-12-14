@@ -7,19 +7,9 @@
 #     - 1 -> нет
 
 user_num = int(input('Введите номер дня недели и программа проверит выходной это или нет '))
-if user_num == 1:
+if user_num == 1 or user_num == 2 or user_num == 3 or user_num == 4 or user_num == 5:
     print(f'{user_num} -> нет')
-if user_num == 2:
-    print(f'{user_num} -> нет')
-if user_num == 3:
-    print(f'{user_num} -> нет')
-if user_num == 4:
-    print(f'{user_num} -> нет')
-if user_num == 5:
-    print(f'{user_num} -> нет')
-if user_num == 6:
-    print(f'{user_num} -> да')
-if user_num == 7:
+if user_num == 6 or user_num == 7:
     print(f'{user_num} -> да')
 if user_num > 7:
     print('Такого дня нет')
